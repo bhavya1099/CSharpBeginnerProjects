@@ -12,7 +12,7 @@ namespace LunarDoggo.ConsoleIOValidation
          * if a variable is readonly, it can only be assigned in a constructor or directly like here
          * The type "List" is contained inside of the namespace "System.Collections.Generic"
          */
-        private readonly static List<string> games = new List<string>();
+        public readonly static List<string> games = new List<string>();
 
         private static void Main(string[] args)
         {
