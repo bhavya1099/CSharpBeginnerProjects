@@ -41,7 +41,7 @@ namespace LunarDoggo.ConsoleIOValidation
          * this method is defined as private and therefore can only be accessed inside of the class Program, empty 
          * parenthesis mean, that the method doesn't take any parameters
          */
-        private static void AddGames()
+        public static void AddGames()
         {
             /*
              * static variables, that are declared outside of any method can be accessed by writing their name. It is advisable 
@@ -55,7 +55,7 @@ namespace LunarDoggo.ConsoleIOValidation
             Program.games.Add("Kerbal space program");
         }
 
-        private static void PrintGameSelection()
+        public static void PrintGameSelection()
         {
             /*
              * a for-loop executes the code inside of its body as many times as the loop-condition is met and can be defined with the following format:
@@ -73,7 +73,7 @@ namespace LunarDoggo.ConsoleIOValidation
         }
 
         //If your method should return a value, just add the name of the return-type instead of void to the signature
-        private static int GetSelectedGame()
+        public static int GetSelectedGame()
         {
             //variables can be declared without assigning a value to it, this should only be done if you assign a value shortly afterwards
             int chosenIndex;
@@ -99,7 +99,7 @@ namespace LunarDoggo.ConsoleIOValidation
 
         //If you want to add paramters to your methods, use the format "<parameter-type> <parameter-name>" for each parameter,
         //if you want to add multiple parameters, separate them with a colon
-        private static void PrintGameChoice(string gameName)
+        public static void PrintGameChoice(string gameName)
         {
             Console.WriteLine();
             //As you normally cant directly write doublequotes into C#-strings, we use the escape-character backslash "\",
