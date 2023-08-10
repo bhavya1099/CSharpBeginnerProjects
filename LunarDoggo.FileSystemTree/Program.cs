@@ -1,4 +1,4 @@
-﻿using System.Collections.Immutable;
+using System.Collections.Immutable;
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
@@ -14,6 +14,27 @@ namespace LunarDoggo.FileSystemTree
             DirectoryInfo baseDirectory = new DirectoryInfo(baseDirectoryPath);
 
             FileSystemTreeItem fileSystemTree = Program.GetFileSystemTree(baseDirectory);
+
+            Program.OutputFileSystemTreeLevel(0, fileSystemTree);
+        }
+
+        private static void OutputFileSystemTreeLevel(int indentationLevel, FileSystemTreeItem item)
+        {
+            //for each indentationlevel we add two spaces
+            string indentation = new string(Enumerable.Repeat(' ', indentationLevel * 2).ToArray());
+
+            //combine the indentation with the current tree items name and type
+            Console.WriteLine(indentation + item.Name + " (" + item.Type + ")");
+
+            //if the current tree item has any children, recursively print them and
+            //their children to the console with the corresponding indentatino level
+            if (item.Children != null && item.Children.Count() > 0)
+            {
+                foreach (FileSystemTreeItem child in item.Children)
+                {
+                    Program.OutputFileSystemTreeLevel(indentationLevel + 1, child);
+                }
+            }
         }
 
         /// <summary>
