@@ -62,4 +62,12 @@ namespace LunarDoggo.QuizGame
             return serializer.DeserializeQuestions();
         }
     }
+    public class Oldclass
+    {
+        public static void PrintMethod()
+        {
+            Console.WriteLine("jst in case");
+        }
+    }
+
 }
