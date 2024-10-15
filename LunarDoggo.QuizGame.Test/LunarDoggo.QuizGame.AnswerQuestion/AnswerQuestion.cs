@@ -101,7 +101,7 @@ namespace LunarDoggo.QuizGame.Test
             int previousUnansweredCount = gameState.HasUnansweredQuestions ? 1 : 0;
             int previousGivenAnswersCount = gameState.AnsweredQuestionCount;
 
-            gameState.AnswerQuestion(null); // Pass null explicitly
+            gameState.AnswerQuestion(); // Pass null explicitly
 
             Assert.AreEqual(previousUnansweredCount, gameState.HasUnansweredQuestions ? 1 : 0);
             Assert.AreEqual(previousGivenAnswersCount, gameState.AnsweredQuestionCount);
