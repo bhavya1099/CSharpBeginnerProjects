@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
@@ -19,6 +19,16 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LunarDoggo.QuizGame", "LunarDoggo.QuizGame\LunarDoggo.QuizGame.csproj", "{B95D0A2F-14F5-482A-8640-56B84AB570D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LunarDoggo.TicTacToe", "LunarDoggo.TicTacToe\LunarDoggo.TicTacToe.csproj", "{6E55DCAE-9F1F-4438-843C-36A8C436FEE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.OccupyTile", "LunarDoggo.TicTacToe.Test\TicTacToe.OccupyTile\TicTacToe.OccupyTile.csproj", "{27773978-55F4-418C-B934-70A11024B631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.AreAllFieldsOccupied", "LunarDoggo.TicTacToe.Test\TicTacToe.AreAllFieldsOccupied\TicTacToe.AreAllFieldsOccupied.csproj", "{641BD36D-60E5-4E2F-A331-BB5895557E02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.HasWon", "LunarDoggo.TicTacToe.Test\TicTacToe.HasWon\TicTacToe.HasWon.csproj", "{D2042704-1636-4174-8E30-25D4C82EB105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Reset", "LunarDoggo.TicTacToe.Test\TicTacToe.Reset\TicTacToe.Reset.csproj", "{5EFE99E8-B158-47D4-B83A-2689D949B6B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.StartGame", "LunarDoggo.TicTacToe.Test\TicTacToe.StartGame\TicTacToe.StartGame.csproj", "{E62BB5AD-821E-448F-B454-49BD01E4D48D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +56,26 @@ Global
 		{6E55DCAE-9F1F-4438-843C-36A8C436FEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E55DCAE-9F1F-4438-843C-36A8C436FEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E55DCAE-9F1F-4438-843C-36A8C436FEE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27773978-55F4-418C-B934-70A11024B631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27773978-55F4-418C-B934-70A11024B631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27773978-55F4-418C-B934-70A11024B631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27773978-55F4-418C-B934-70A11024B631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641BD36D-60E5-4E2F-A331-BB5895557E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641BD36D-60E5-4E2F-A331-BB5895557E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641BD36D-60E5-4E2F-A331-BB5895557E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641BD36D-60E5-4E2F-A331-BB5895557E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2042704-1636-4174-8E30-25D4C82EB105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2042704-1636-4174-8E30-25D4C82EB105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2042704-1636-4174-8E30-25D4C82EB105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2042704-1636-4174-8E30-25D4C82EB105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EFE99E8-B158-47D4-B83A-2689D949B6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EFE99E8-B158-47D4-B83A-2689D949B6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EFE99E8-B158-47D4-B83A-2689D949B6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EFE99E8-B158-47D4-B83A-2689D949B6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E62BB5AD-821E-448F-B454-49BD01E4D48D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62BB5AD-821E-448F-B454-49BD01E4D48D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62BB5AD-821E-448F-B454-49BD01E4D48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62BB5AD-821E-448F-B454-49BD01E4D48D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
